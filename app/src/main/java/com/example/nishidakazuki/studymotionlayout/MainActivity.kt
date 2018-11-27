@@ -24,4 +24,12 @@ class MainActivity : AppCompatActivity() {
                 .addToBackStack(null)
                 .commit()
     }
+
+    fun switch03(view: View) {
+        supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_frame, Example03Fragment())
+                .addToBackStack(null)
+                .commit()
+    }
+
 }
