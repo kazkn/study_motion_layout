@@ -42,6 +42,13 @@
             android:layout_height="wrap_content"
             android:onClick="switch05"
             android:text="5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="switch06"
+            android:text="6" />
+
     </LinearLayout>
 
     <FrameLayout
