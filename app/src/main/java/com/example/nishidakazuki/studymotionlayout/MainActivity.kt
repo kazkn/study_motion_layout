@@ -39,4 +39,11 @@ class MainActivity : AppCompatActivity() {
                 .commit()
     }
 
+    fun switch05(view: View) {
+        supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_frame, Example05Fragment())
+                .addToBackStack(null)
+                .commit()
+    }
+
 }
