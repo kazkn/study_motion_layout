@@ -49,6 +49,12 @@
             android:onClick="switch06"
             android:text="6" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="switch07"
+            android:text="7" />
+
     </LinearLayout>
 
     <FrameLayout
